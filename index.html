@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escáner de Puertos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Escáner de Puertos</h1>
+    <label for="ip">Introduce la IP o dominio:</label>
+    <input type="text" id="ip" placeholder="Ej. 192.168.1.1">
+    
+    <label for="puertos">Introduce el rango de puertos (Ej. 80, 443, 8080):</label>
+    <input type="text" id="puertos" placeholder="Ej. 80, 443, 8080">
+    
+    <button id="escaneoBtn">Escanear Puertos</button>
+    
+    <h2>Resultados:</h2>
+    <div id="resultados"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
